@@ -1,0 +1,49 @@
+﻿# AfterCloud Uptime config
+# If you need help, join our discord server here: https://discord.gg/zv6maQRah3
+
+# Bot Info's
+token: 'OTM2ODA0NzkzOTIwMzk3MzMy.YfShcw.NGZ1K9C6H-ta0FhXGzYdQrZqqug' # Put bot token here, check https://discord.dev to create and get bot token
+botstatus:
+  enable: true # Enable Custom Status (MUST BE "true" OR "false")
+  text: '💻ENGINE GAME HOSTING' # Bot Status Message
+  type: 'WATCHING' # Bot Status Type. Ex: PLAYING, WATCHING, LISTENING, STREAMING
+
+# Channel and RefreshTime Configuration
+channel: '958903265653817364' # Put channel id here where the embed will be sended
+refreshtime: 20 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
+
+# Panel Info's
+panel:
+  url: 'https://client.heppystore.site' # Put panel url here. Example: https://panel.purenodes.net
+  adminkey: 'YlQmMEJziPMTfeg5BiFpEEEHd9a7acrWdqrayznPiWYVQymZ' # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
+
+# Embed Configuration
+embed: 
+  title: 'Heppy Host Uptime Panel
+' # Embed Title here. Ex: PureNodes Stats
+  color: 'ffe700' # Embed Hex color here.
+  description: 
+    enable: false # Enable Embed Description (MUST BE "true" OR "false")
+    text: 'EMBED DESCRIPTION' # Embed Description
+  footer: 
+    enable: true # Enable Embed Footer (MUST BE "true" OR "false")
+    text: 'Heppy Cloud' # Embed Footer
+  timestamp: true # Enable Embed TimeStamp (MUST BE "true" OR "false")
+
+# Status Message Configuration
+status:
+  online: '<a:online:960792968078438441> Up' # Message if the status is Online
+  offline: '<a:donotdisturb:960792968724357120> Down' # Message if the status is Offline
+  check: '<a:idle:960792968804048936> Checking' # Message if the status is Checking
+
+# Node Resource
+resource:
+  enable: true # Enable resource option ex [Ram: 2gb/5gb] bellow node name (MUST BE "true" OR "false")
+  servers: true # Enable Total server on the node to resource text (MUST BE "true" OR "false")
+  allocations: true # Enable Total Allocation on the node to resource text (MUST BE "true" OR "false")
+  location: true # Enable location short name on the node to resource text (MUST BE "true" OR "false")
+  unit: 'percent' # Must be 'mb', 'gb', or 'percent'
+
+# Developers feature
+debug: false # Enable and Disable debug log to console
+debugaxios: false #Enable and Disable axios error logs
